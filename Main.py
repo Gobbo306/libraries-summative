@@ -1,14 +1,21 @@
 #------------------------------------------------
+#Libraries & Modules.py
 #Dylan Friesen
-#Libraries Formative - Main Program
-#October 28, 2019
+#October 30th, 2019
 #------------------------------------------------
 
-#------------------Imports---------------------
-import time
-from other import basic_print
-from other import more_stuff
 
-basic_print.choose_basic()
-print (basic_print.cool_list)
-print (basic_print.john)
+#---------------Imports--------------------------
+
+import time
+from other import breakfast_code
+from other import dinner_code
+from other import supper_code
+from other import dessert_code
+
+#--------------------Code---------------------
+            
+breakfast_code.main_b()
+dinner_code.main_d()
+supper_code.main_s()
+dessert_code.dessert()
